@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rooms</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- Links Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <!-- Link do Google Fonts  -->
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <!-- Links Bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Link CSS -->
+        <link rel="stylesheet" type="text/css" href="ohh.css">
+    </head>
+    <body>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Sair</button>
+            <center>
+                <h1  class="header">    
+                    Kwitter 
+                    <sup>
+                     <i class="fa-regular fa-comments fa-beat-fade" style="color: #1d242f;"></i>
+                    </sup>
+                </h1>
+                <h3 id="user_name" class="color_white"></h3>
+                <div class="form-group input_div_room_page">
+                    <label>#Adicionar Sala:</label>
+                    <input type="text" id="room_name" class="form-control" placeholder="#Nome da Sala">
+                </div>
+                
+                <button onclick="addRoom();" class="btn btn-success">#Adicionar Sala</button>
+                <h3 class="color_white">#SALAS EM DESTAQUE</h3>
+                <div id="output"></div>
+            </center>
+        </div>
+        <script src="sala.js"></script>
+    </body>
+</html>

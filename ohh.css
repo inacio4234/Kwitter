@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.header{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.divContent{
+    background-color: cornflowerblue;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.container{
+    font-family: 'Rubik', sans-serif;
+}
+
+.header2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.logo{
+    width: 60%;
+    padding :20px;
+
+}
+
+.room_name
+{
+    cursor: pointer;
+    font-size: 20px;
+}
+#logout
+{
+    font-size: 20px; float: right;
+    font-family: 'Rubik', sans-serif;
+}
+#output
+{
+    padding: 10px;
+     width:80%;
+     background: rgba(255,255,255,0.8);
+     border-radius: 15px;
+}
+.input_div_room_page
+{
+    width: 80%;
+}
+.input_div label
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.input_div_message_page
+{
+    position: fixed;bottom: 0px;width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.input_div_message_page #msg
+{
+    width: 80%;
+}
+.input_div_message_page button
+{
+    margin-top: 15px;
+    width: 50%; 
+}
+.color_white
+{
+    color: white
+}
+.user_tick
+{
+    width:20px;
+}
+.message_h4
+{
+    padding-left:5px;color:grey;
+}
